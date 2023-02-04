@@ -1,3 +1,5 @@
+
+
 html,
 body {
 
@@ -15,11 +17,6 @@ body {
   background: #ffe4ba;
 }
 
-img{
-
-  max-width:100%;
-max-height:100%;
-}
 
 /* Section Nav bar
 
@@ -34,32 +31,29 @@ max-height:100%;
 /* Section Welcome */
 
 .Welcome{
-  font-family: 'Dr Sugiyama', cursive;
-  background: #fff8ee;
+
+position:relative;
 
 
 
-  color: white;
-}
 
-
-.portfoliotext{
-  font-family: 'Berkshire Swash', cursive;
-  text-align: left;
 
 }
 
-.photo{
+.Welcome .photo{
 
+width: 100%;
+  height: 100%;
+}
+
+.Welcome .wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
 
 
-
-/* Wave top */
-.waveTop{
-  background: #fff8ee;
-  z-index: -1;
-}
 /* Contents section */
 .contenttitle{
 
@@ -75,7 +69,7 @@ max-height:100%;
 
   background: #fff8ee;
   font-family: 'Berkshire Swash', cursive;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   color: #545454;
@@ -92,26 +86,34 @@ max-height:100%;
 }
 
 
+.homesection{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.btnimage:hover {
+    opacity: 0.5;
+}
  .WaveBottom{
 background:  #ffe4ba;
  }
 /* Aboutme section */
+
+
 .text-end{
 
   text-align: right;
 }
-img{
-  max-width:100%;
-max-height:100%;
-}
+
 #about{
 font-family: 'Dr Sugiyama', cursive;
-font-size: 75px;
+
 }
 .aboutcontent{
-  padding-top: 5%;
+
   text-align: center;
+  font-size: 15px;
 }
 
 .aboutMe{
@@ -121,6 +123,28 @@ font-size: 75px;
 
 
  }
+ .aboutpad{
+   padding-left: 50%;
+   padding-right: 50%;
+ }
+
+ /* Time line section*/
+ .careerwave{
+background:  #fff8ee;
+ }
+.timeline{
+  background: #fff8ee;
+  font-family: 'Dr Sugiyama', cursive;
+}
+
+/* Skills and tools */
+
+.skillstools{
+
+  background: #fff8ee;
+  font-family: 'Dr Sugiyama', cursive;
+}
+
 /* footer section */
 
 .footer{
