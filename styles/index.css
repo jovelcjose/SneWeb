@@ -79,9 +79,9 @@ width: 100%;
 
 .links{
   background: #fff8ee;
-  font-family: 'Mr De Haviland', cursive;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: 'Berkshire Swash', cursive;
+
+
   text-align: center;
 }
 
@@ -90,6 +90,10 @@ width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.btnimage{
+  width: 350px;
+  height: 350px;
 }
 
 .btnimage:hover {
@@ -114,12 +118,14 @@ font-family: 'Dr Sugiyama', cursive;
 
   text-align: center;
   font-size: 15px;
+
 }
 
 .aboutMe{
    background: #ffe4ba;
    font-family: 'Charm', cursive;
    font-size: 30px;
+
 
 
  }
@@ -148,6 +154,6 @@ background:  #fff8ee;
 /* footer section */
 
 .footer{
-  padding-top: 10%;
-  background: #ffe4ba;
+    text-align: center;
+  background: #fff8ee;
 }
